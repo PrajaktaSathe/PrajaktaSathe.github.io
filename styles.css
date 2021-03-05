@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 10vh 5vw;
+    padding: 10vh 5vw;
+}
+
+.container {
+    width: 50%;
+    float: left;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 5px 5px 5px 0;
+    padding: 5px 5px 20px 0;
+}
+
+.contact {
+    margin: 20px 20px 20px 0;
+    padding: 60px 20px 40px 0;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
