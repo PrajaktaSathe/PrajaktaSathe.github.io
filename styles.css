@@ -39,3 +39,16 @@ body {
         width: 100%;
     }
 }
+
+.contact-form {
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+}
+
+.message {
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 30px;
+    font-weight: bolder;
+}
