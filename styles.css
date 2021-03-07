@@ -16,9 +16,18 @@ body {
     padding: 10vh 5vw;
 }
 
+li {
+    list-style: none;
+}
+
 .container {
     width: 50%;
     float: left;
+}
+
+.container-2 {
+    width: 40%;
+    float: right;
 }
 
 .name {
@@ -30,7 +39,15 @@ body {
 
 .contact {
     margin: 20px 20px 20px 0;
-    padding: 60px 20px 40px 0;
+    padding: 25px 20px 40px 0;
+}
+
+.fab {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
 /* Media queries */
