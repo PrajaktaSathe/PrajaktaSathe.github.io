@@ -20,23 +20,32 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(85, 0, 196);
+}
+
+a:hover {
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(51, 0, 146);
+}
+
 .container {
     width: 70%;
     float: left;
 }
 
-.container-2 {
-    margin-top: 300px;
-    width: 40%;
-    height: 400px;
-    display: grid;
-    float: right;
-    text-align: right;
-    align-items: baseline;
+.skills {
+    padding: 10px 0;
 }
 
-.container-2 .dark-mode-btn {
-    align-items: center;
+.skills:hover {
+    background-color: rgb(169, 255, 255);
+    border-radius: 10px;
+    font-style: italic;
+    box-shadow: 5px 10px 10px lightgray;
+    transition: 7ms;
 }
 
 .name {
@@ -49,6 +58,14 @@ li {
 .contact {
     margin: 20px 20px 20px 0;
     padding: 25px 20px 40px 0;
+}
+
+.contact:hover {
+    background-color: rgb(166, 255, 34);
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 5px 10px 10px lightgray;
+    transition: 7ms;
 }
 
 .fab {
