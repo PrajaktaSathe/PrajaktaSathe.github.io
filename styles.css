@@ -45,7 +45,7 @@ a:hover {
     border-radius: 10px;
     font-style: italic;
     box-shadow: 5px 10px 10px lightgray;
-    transition: 7ms;
+    transition: all 1s;
 }
 
 .name {
@@ -65,7 +65,7 @@ a:hover {
     border-radius: 10px;
     font-weight: bold;
     box-shadow: 5px 10px 10px lightgray;
-    transition: 7ms;
+    transition: all 1s;
 }
 
 .fab {
