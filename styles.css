@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    margin: 10vh 5vw;
+    margin: 7vh 5vw;
     padding: 10vh 5vw;
 }
 
@@ -41,11 +41,12 @@ a:hover {
 }
 
 .skills:hover {
-    background-color: rgb(169, 255, 255);
+    background-color: rgb(255, 247, 250);
     border-radius: 10px;
     font-style: italic;
     box-shadow: 5px 10px 10px lightgray;
     transition: all 1s;
+    transform: skew(2.5deg);
 }
 
 .name {
@@ -61,11 +62,12 @@ a:hover {
 }
 
 .contact:hover {
-    background-color: rgb(166, 255, 34);
+    background-color: rgb(255, 247, 250);
     border-radius: 10px;
     font-weight: bold;
     box-shadow: 5px 10px 10px lightgray;
     transition: all 1s;
+    transform: skew(2.5deg);
 }
 
 .fab {
