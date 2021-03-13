@@ -76,6 +76,11 @@ a:hover {
     width: 50px;
     text-align: center;
     text-decoration: none;
+    transition: font-size 0.5s;
+}
+
+.fab:hover {
+    font-size: 2em;
 }
 
 .fa-github {
