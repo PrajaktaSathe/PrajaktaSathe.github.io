@@ -46,7 +46,7 @@ a:hover {
     font-style: italic;
     box-shadow: 5px 10px 10px lightgray;
     transition: all 1s;
-    transform: skew(2.5deg);
+    /* transform: skew(2.5deg); */
 }
 
 .name {
@@ -67,7 +67,7 @@ a:hover {
     font-weight: bold;
     box-shadow: 5px 10px 10px lightgray;
     transition: all 1s;
-    transform: skew(2.5deg);
+    /* transform: skew(2.5deg); */
 }
 
 .fab {
