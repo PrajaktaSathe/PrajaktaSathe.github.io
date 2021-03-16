@@ -99,6 +99,10 @@ a:hover {
     color: black;
 }
 
+.fa-dev {
+    color: black;
+}
+
 /* Media queries */
 @media (max-width: 600px) {
     .container {
