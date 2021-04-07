@@ -54,6 +54,14 @@ a:hover {
     font-weight: bold;
     margin: 5px 5px 5px 0;
     padding: 5px 5px 20px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: animated-text 3s steps(30, end) 1s 5 normal both;
+}
+
+@keyframes animated-text {
+    from {width: 0;}
+    to {width: 472px;}
 }
 
 .contact {
